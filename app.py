@@ -8,7 +8,6 @@ import json
 import requests
 
 option_a = os.getenv('OPTION_A', u"CI CD (Tekton) Live Demo Test # 888")
-print("\033[1;32;40m Bright Green  \n")"xx"
 option_b = os.getenv('OPTION_B', u )
 hostname = socket.gethostname()
 

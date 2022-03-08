@@ -8,7 +8,7 @@ import json
 import requests
 
 option_a = os.getenv('OPTION_A', u"CI CD (Tekton) Live Demo Test # 888")
-option_b = os.getenv('OPTION_B', u"")
+option_b = os.getenv('OPTION_B', u print("\033[1;32;40m Bright Green  \n")"xx")
 hostname = socket.gethostname()
 
 app = Flask(__name__)
